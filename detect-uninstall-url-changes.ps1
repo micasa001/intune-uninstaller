@@ -65,7 +65,7 @@ if ($liveversion -ne $currentversion) {
 write-warning "Script has been updated, please download the latest version from $liveuri"
 }
 }
-Get-ScriptVersion -liveuri "https://raw.githubusercontent.com/andrew-s-taylor/public/main/Powershell%20Scripts/Winget/detect-uninstall-url-changes.ps1"
+Get-ScriptVersion -liveuri "https://raw.githubusercontent.com/micasa001/intune-uninstaller/main/detect-uninstall-url-changes.ps1"
 
 
 #####################################################################################################################################
@@ -73,7 +73,7 @@ Get-ScriptVersion -liveuri "https://raw.githubusercontent.com/andrew-s-taylor/pu
 #                                                                                                                               #
 #####################################################################################################################################
 
-$installuri = "https://github.com/andrew-s-taylor/winget/raw/main/uninstall-apps.txt"
+$installuri = "https://raw.githubusercontent.com/micasa001/intune-uninstaller/main/uninstall-apps.txt"
 
 
 ##Create a folder to store the lists
