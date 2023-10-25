@@ -1,0 +1,4 @@
+Version 1.0
+Mozilla.Firefox
+Google.Chrome
+Spotify.Spotify
